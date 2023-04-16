@@ -1,0 +1,9 @@
+h1{
+	text-align: center;
+}
+.delivery-link{
+	cursor: pointer;
+}
+.delivery-link:hover{
+	text-decoration: underline;
+}
