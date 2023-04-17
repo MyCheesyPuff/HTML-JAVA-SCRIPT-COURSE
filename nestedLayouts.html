@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>Nested layouts exercises
+	<title>Nested layouts exercises</title>
+</head>
+<style>
+	p{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.cat-picture{
+		display: inline-block;
+		width: 50px;
+		margin-right: 14px;
+	
+		
+	}
+
+	.cat-profile-picture{
+		width: 50px;
+		height: 50px;
+		border-radius:40px;
+		margin-top: 5px;
+
+	}
+	.cat-info{
+		display: inline-block;
+		vertical-align: top;
+		width: 100px;
+	}
+	.cat-name{
+		vertical-align: top;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.follow-button{
+		display: inline-block;
+		margin-left: 150px;
+		vertical-align: top;
+		margin-top: 20px;
+
+		
+	}
+	.follow-cat-button{
+		background-color: blue;
+		color: white;
+		font-size: 14px;
+		font-weight: bold;
+		border: none;
+		height: 30px;
+		width: 80px;
+		border-radius: 4px;
+	}
+</style>
+<body>
+	<div>
+		<div class = "cat-picture">
+			<img class = cat-profile-picture src="channelpics/cat.jpg"> 
+			
+		</div>
+		<div class = "cat-info">
+			<div class = "cat-name">
+				<p>oliver</p>
+			</div>
+			<div class = "cat-age">
+				<p>12 months</p>
+			</div>
+			<div class = "popularity-rating">
+				<p>very popular</p>
+				
+			</div>
+		</div>
+		<div class = "follow-button">
+			<button class = "follow-cat-button"> Follow </button>
+		</div>
+	</div>
+</body>
+</html>
