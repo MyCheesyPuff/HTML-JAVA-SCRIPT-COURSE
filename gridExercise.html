@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grid exercise</title>
+	<style>
+		.two-column{
+			display: grid;
+			grid-template-columns: 200px 75px;
+			column-gap: 12px;
+		}
+		.col1{
+			background-color: lightblue;
+		}
+		.col2{
+			background-color: lightpink;
+		}
+		.col3{
+			background-color: yellowgreen;
+		}
+		.col4{
+			background-color: darkred;
+		}
+		.three-column{
+			display: grid;
+			grid-template-columns: 50px 1fr 75px;
+			column-gap: 12px;
+			margin-top: 10px;
+		}
+		.four-column{
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			column-gap: 12px;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class = "two-column">
+		<div class = "col1">column 1 200px</div>
+		<div class = "col2"> column 2 75px</div>
+		
+	</div>
+	<div class = "three-column">
+		<div class = "col1">column 1 50px</div>
+		<div class = "col2"> column 2 remaining space</div>
+		<div class = "col3"> column 3 75px</div>
+		
+	</div>
+	<div class = "four-column">
+		<div class = col1>
+			col1
+		</div>
+		<div class = col2>
+			col2
+			col2 	col2 	col2 	col2 	col2 	col2 	col2 	col2 	col2 	col2 	col2 	col2 	col2 	col2 	col2 	col2 	col2 	col2 	col2 	col2 	col2 	col2 	col2 	col2 
+		</div>
+		<div class = col3>
+			col3
+		</div>
+		<div class = col4>
+			col4
+		</div>
+	</div>
+
+</body>
+</html>
