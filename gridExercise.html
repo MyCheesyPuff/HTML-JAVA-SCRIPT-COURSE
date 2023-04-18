@@ -31,6 +31,47 @@
 			grid-template-columns: 1fr 1fr 1fr 1fr;
 			column-gap: 12px;
 			margin-top: 10px;
+
+		}
+		.three-item-grid{
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			margin-top: 20px;
+			column-gap: 12px;
+		}
+		.item-picture{
+			width: 100%;
+		}
+		.item-1{
+			background-color: red;
+			padding-bottom: 6px;
+			padding-left: 8px;
+			padding-right: 8px;
+			padding-top: 6px;
+		}
+		.mutual-friends-info{
+			display: grid;
+			grid-template-columns: 30px 1fr;
+			align-items: center;
+			column-gap: 6px;
+		}
+		.mutual-friends-picture{
+			width: 100%;
+			border-radius: 50px;
+		}
+		.cat-name{
+			font-size: 20px;
+			font-weight: bold;
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+		.add-friends{
+			background-color: blue;
+			color: white;
+			font-weight: bold;
+			font-size: 16px;
+			border: none;
+			border-radius: 4px;
 		}
 	</style>
 </head>
@@ -59,6 +100,70 @@
 		</div>
 		<div class = col4>
 			col4
+		</div>
+	</div>
+
+	<div class = "three-item-grid">
+		<div class = "item-1">
+				<img class = "item-picture" src="channelpics/cat.jpg">
+				<p class = "cat-name">
+					Oliver
+				</p>
+				<div class = "mutual-friends-info">
+					<div>
+						<img class = "mutual-friends-picture" src="channelpics/channel-1.jpeg">
+					</div>
+					<div class = "num-of-mutual-friends">
+						<p>2 mutual friends</p>
+					</div>
+				</div>
+				<button class = "add-friends"> 
+					Add Friend
+				</button>
+			
+			
+		</div>
+		<div class = "item-2">
+				<div class = "item-1">
+				<img class = "item-picture" src="channelpics/cat.jpg">
+				<p class = "cat-name">
+					Oliver
+				</p>
+				<div class = "mutual-friends-info">
+					<div>
+						<img class = "mutual-friends-picture" src="channelpics/channel-1.jpeg">
+					</div>
+					<div class = "num-of-mutual-friends">
+						<p>2 mutual friends</p>
+					</div>
+				</div>
+				<button class = "add-friends"> 
+					Add Friend
+				</button>
+			
+			
+		</div>
+		</div>
+		<div class = "item-3">
+				<div class = "item-1">
+				<img class = "item-picture" src="channelpics/cat.jpg">
+				<p class = "cat-name">
+					Oliver
+				</p>
+				<div class = "mutual-friends-info">
+					<div>
+						<img class = "mutual-friends-picture" src="channelpics/channel-1.jpeg">
+					</div>
+					<div class = "num-of-mutual-friends">
+						<p>2 mutual friends</p>
+					</div>
+				</div>
+				<button class = "add-friends"> 
+					Add Friend
+				</button>
+			
+			
+		</div>
 		</div>
 	</div>
 
