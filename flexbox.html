@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flexbox Practice</title>
+	<style>
+		body{
+			margin: 0;
+		}
+		.container{
+			display:flex;
+			flex-direction: row;
+			column-gap: 2px;
+			height: 40px;
+			justify-content: space-between;
+		}
+		.header-left{
+			background-color: lightgreen;
+			width: 150px;
+		}
+		.header-center{
+			background-color: lightpink;
+			flex: 1;
+			margin-left: 70px;
+			margin-right: 35px;
+			max-width: 500px;
+
+		}
+		.header-right{
+			background-color: lightblue;
+			width: 200px;
+
+		}
+	</style>
+
+</head>
+<body>
+	<div class = "container">
+		<div class = "header-left">
+			left
+		</div>
+		<div class = "header-center">
+			center
+		</div>
+		
+		<div class = "header-right">
+			right
+		</div>
+	</div>
+</body>
+</html>
